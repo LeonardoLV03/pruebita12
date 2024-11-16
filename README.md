@@ -2,57 +2,89 @@
 
 Sean todos bienvenidos a nuestro proyecto de Computacion tolerante a fallas en la cual veremos una aplicacion con microservicios la cual estara trabajando con docker y kubernetes.
 
-## 📸 Capturas de Pantalla del Proyecto
+## 📸 Capturas de Pantalla del Proyecto/Vista del Usuario
 
 Aquí puedes encontrar algunas capturas de pantalla que muestran la interfaz del proyecto:
 
-1. **Home**  
+1. **Login**  
 
-![image](https://github.com/user-attachments/assets/bd91ef1b-cced-437a-abd2-6e99b471ac4a)
+ ![Captura de pantalla 2024-11-16 110844](https://github.com/user-attachments/assets/5da63f9f-80d0-4e7b-9186-fd2a0887d316)
 
-
-2. **Login**  
- 
- ![image](https://github.com/user-attachments/assets/1dba0607-02cd-444b-93ff-25d2cd65eaa8)
-
-
-3. **Seleccion de cuestionarios**  
+2. **Seleccion de cuestionarios**  
  
  ![Captura de pantalla 2024-11-16 105439](https://github.com/user-attachments/assets/7ab79e51-97f3-47a2-ba68-f98425bc8a58)
 
-4. **Cuestionarios**  
+3. **Cuestionarios**  
  
  ![Captura de pantalla 2024-11-16 105718](https://github.com/user-attachments/assets/02591cc6-ea8a-4134-8300-69cbe038d655)
 
 
-5. **Temas de interes**  
+4. **Temas de interes**  
  
  ![Captura de pantalla 2024-11-16 105831](https://github.com/user-attachments/assets/42d213c8-7260-417b-a6d7-50c5b6bf0c25)
+
+5. **Foro**
+  
+  ![Captura de pantalla 2024-11-16 110440](https://github.com/user-attachments/assets/bf6ae434-46bd-4f13-afc9-1f6eca5a1f51)
+
+6. **Ejemplo de publicacion en el foro**
+  
+  ![Captura de pantalla 2024-11-16 110638](https://github.com/user-attachments/assets/b01cff33-b817-45f0-8864-27848bd5a94f)
+
+
+## 📸 Capturas de Pantalla del Proyecto/Vista del Administrador
+
+1. **Login**  
+
+ ![Captura de pantalla 2024-11-16 110844](https://github.com/user-attachments/assets/5da63f9f-80d0-4e7b-9186-fd2a0887d316)
+
+2. **Seleccion de cuestionarios**  
+ 
+ ![Captura de pantalla 2024-11-16 105439](https://github.com/user-attachments/assets/7ab79e51-97f3-47a2-ba68-f98425bc8a58)
+
+3. **Cuestionarios**  
+ 
+ ![Captura de pantalla 2024-11-16 105718](https://github.com/user-attachments/assets/02591cc6-ea8a-4134-8300-69cbe038d655)
+
+
+4. **Temas de interes**  
+ 
+ ![Captura de pantalla 2024-11-16 105831](https://github.com/user-attachments/assets/42d213c8-7260-417b-a6d7-50c5b6bf0c25)
+
+5. **Foro**
+  
+  ![Captura de pantalla 2024-11-16 110440](https://github.com/user-attachments/assets/bf6ae434-46bd-4f13-afc9-1f6eca5a1f51)
+
+6. **Ejemplo de publicacion en el foro**
+  
+  ![Captura de pantalla 2024-11-16 110638](https://github.com/user-attachments/assets/b01cff33-b817-45f0-8864-27848bd5a94f)
+7. **Añadir temas de interes**
+
+  ![Captura de pantalla 2024-11-16 111117](https://github.com/user-attachments/assets/a4514b72-dc8e-4260-861b-d35e8c3a5a79)
+
+8. **Lista de usuarios**
+
+  ![Captura de pantalla 2024-11-16 111336](https://github.com/user-attachments/assets/6dec89d3-22e7-4fa1-8a9f-a3414a2dda0d)
+
+9. **Actualizacion de quiz**
+
+  ![Captura de pantalla 2024-11-16 111438](https://github.com/user-attachments/assets/31781132-d35e-4c20-b9ce-4edf66b94ec2)
+
+10. **Ejemplo de quiz**
+
+  ![Captura de pantalla 2024-11-16 111627](https://github.com/user-attachments/assets/44c41d8e-44e7-4714-b35b-943f7b27bc77)
 
 
 ## 📋 Descripción del Proyecto
 
 Este proyecto esta diseñado para que los usuarios puedan responder encuestas y explorar temas de interés relacionados con la ciberseguridad. Además, integra un foro donde los usuarios pueden interactuar entre sí mediante publicaciones, fomentando el aprendizaje y la discusión sobre este tema. El sistema está desarrollado con tecnologías modernas como Docker y Kubernetes, lo que asegura una arquitectura escalable, tolerante a fallos y altamente disponible.
 
-### Características Principales
-
-- 📊 **Análisis de Oportunidades de Inversión**: La plataforma evalúa múltiples proyectos y presenta recomendaciones personalizadas.
-- 🤖 **IA para Sugerencias**: Utilizamos GPT-3.5 y otros algoritmos para analizar los datos y sugerir las mejores oportunidades de inversión.
-- 📈 **Automatización de Inversiones**: Los usuarios pueden configurar estrategias automáticas basadas en su perfil de riesgo.
-- 🚀 **Despliegue en Heroku**: La plataforma se despliega fácilmente en Heroku con Docker y archivos de configuración adicionales.
-- 🌐 **Modo Oscuro**: Experiencia de usuario mejorada con soporte de modo oscuro.
-- 💬 **Chat de Recomendaciones con IA**: Los usuarios pueden interactuar con un chatbot que ofrece sugerencias y respuestas relacionadas con las inversiones.
-
 ## 🛠️ Tecnologías Utilizadas
 
-- **Laravel 10**: Framework PHP para el desarrollo del backend.
-- **Vue.js**: Utilizado para el desarrollo de un frontend interactivo y dinámico.
-- **GPT-3.5 (ChatGPT)**: Integración con la API de OpenAI para sugerencias basadas en IA.
-- **MySQL**: Base de datos relacional para almacenar datos de usuarios e inversiones.
-- **Guzzle HTTP Client**: Para realizar solicitudes HTTP a la API de OpenAI.
+- **Express**: Framework para el desarrollo del backend.
+- **React**: Utilizado para el desarrollo de un frontend.
+- **Supabase**: Base de datos.
 - **Docker**: Contenedor para facilitar el despliegue.
-- **Heroku**: Plataforma para el despliegue en la nube del backend.
-- **mPDF**: Generación de tickets PDF para cada inversión realizada.
 
 ## 🚀 Despliegue del Proyecto
 
@@ -63,41 +95,18 @@ Sigue los siguientes pasos para desplegar el proyecto en tu entorno local o en u
 ### 1. Clonar el Repositorio 🛳️
 
 ```sh
-$ git clone https://github.com/tu-usuario/nuevo-proyecto-microinversiones.git
-$ cd nuevo-proyecto-microinversiones
+$ git clone https://github.com/ChristianFLozano/ProyectoSSPS.git
+$ cd ProyectoSSPS
 ```
 
-### 2. Configurar el Entorno 🔧
-
-- Renombra el archivo `.env.example` a `.env`:
-
-```sh
-$ cp .env.example .env
-```
-
-- Actualiza las variables del archivo `.env` con tu configuración:
-  - Configura la conexión a la base de datos (MySQL).
-  - Añade las claves API para OpenAI (`OPENAI_API_KEY`).
-
-### 3. Instalar Dependencias 🧰
-
-Instala las dependencias de Laravel:
-
-```sh
-$ composer install
-```
-
+### 2. Instalar Dependencias 🧰
 Instala las dependencias del frontend:
 
 ```sh
 $ npm install && npm run dev
 ```
-
-### 4. Generar la Clave de la Aplicación 🔑
-
-```sh
-$ php artisan key:generate
-```
+Ahora para el backend:
+primero ingresa al siguiente link para encotrar el repo:  https://github.com/ChristianFLozano/ProyectoSSPSBackend
 
 ### 5. Migrar la Base de Datos 🗄️
 
